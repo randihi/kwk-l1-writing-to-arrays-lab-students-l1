@@ -8,7 +8,7 @@ def age_order
     ["Jill", 24]
   ]
   
-  copy = data.sort
+  copy = data.values.sort
   puts copy.to_s
 end
 
