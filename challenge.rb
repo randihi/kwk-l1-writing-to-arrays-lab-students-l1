@@ -19,7 +19,7 @@ def age_order
   sort_me.push({"Age"=>24, "Name"=>"Steve"})
   sort_me.push({"Age"=>24, "Name"=>"Jill"})
 
-  sorted = sort_me.sort_by { |k| k["value"] }
+  sorted = sort_me.sort_by { |k| k["Age"] }
   puts sorted
   
 end
