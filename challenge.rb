@@ -6,8 +6,9 @@ def age_order
     ["Dom", 32],
     ["Steve", 24],
     ["Jill", 24]
+    copy = 
   ]
   puts data[1]
 end
 
-age_order
+puts age_order
