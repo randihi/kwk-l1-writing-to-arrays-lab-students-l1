@@ -6,9 +6,10 @@ def age_order
     ["Dom", 32],
     ["Steve", 24],
     ["Jill", 24]
-    copy = 
   ]
-  puts data[1]
+  
+  copy = data.sort
+  
 end
 
 puts age_order
