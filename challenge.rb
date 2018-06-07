@@ -8,7 +8,7 @@ def age_order
     ["Jill", 24]
   ]
   
-  people.sort_by { |name, age| age }
+  data.sort_by { |name, age| age }
   
   copy = data.
   puts copy.to_s
