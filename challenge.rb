@@ -10,9 +10,9 @@ def age_order
   
   # data.sort_by {|name, age| age}
   # puts data
-  strings = %w(foo test blog a)
-  strings.sort { |a,b| a.length <=> b.length }
-  puts strings
+  hash = {coconut: 200, orange: 50, bacon: 100}
+ 
+hash.sort_by(&:last)
 end
 
 puts age_order
