@@ -38,6 +38,7 @@
 # puts sorted[2][0]
 # puts sorted[3][0]
 
+#Output the name with the age
 data = [
   ['Frank', 33],
   ['Stacy', 15],
