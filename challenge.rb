@@ -14,7 +14,7 @@
 
 # puts age_order
 
-#
+#Output names in order by ascending age
 data = [
   ['Frank', 33],
   ['Stacy', 15],
