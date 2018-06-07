@@ -28,11 +28,11 @@ sorted = data.sort_by do |age|
 end
 
 sorted.each do |names|
-  puts names
+  puts name[0]
 end
 
-puts sorted
-puts sorted[0][0]
-puts sorted[1][0]
-puts sorted[2][0]
-puts sorted[3][0]
+# puts sorted
+# puts sorted[0][0]
+# puts sorted[1][0]
+# puts sorted[2][0]
+# puts sorted[3][0]
