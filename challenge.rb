@@ -11,9 +11,8 @@ def age_order
   puts sorted
   
   
-    my_hash.keys.sort_by { |key| my_hash[key] }.each do
-  |key|
-      puts my_hash[key]
+  my_hash.keys.sort_by { |key| my_hash[key] }.each do |key|
+    puts my_hash[key]
   end
 end
 
