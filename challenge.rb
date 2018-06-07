@@ -15,11 +15,8 @@ sort_me.push({"value"=>1, "name"=>"a"})
 sort_me.push({"value"=>3, "name"=>"c"})
 sort_me.push({"value"=>2, "name"=>"b"})
 
-# sort
-sort_me.sort_by { |k| k["value"]}
-
-# same order as above!
-puts sort_me
+sorted = sort_me.sort_by { |k| k["value"] }
+puts sorted
 end
 
 puts age_order
