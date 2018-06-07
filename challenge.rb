@@ -26,6 +26,7 @@ def age_order
   p2 = people.sort_by(:age)
   p3 = people.sort_by(:height)
 
+  puts people
 end
 
 puts age_order
