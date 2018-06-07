@@ -9,9 +9,8 @@ def age_order
   ]
   
   people.sort_by { |name, age| age }
-  # => [[:joan, 18], [:fred, 23], [:pete, 54]]
   
-  copy = data.sort
+  copy = data.
   puts copy.to_s
 end
 
