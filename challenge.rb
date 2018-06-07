@@ -24,6 +24,6 @@ data = [
 ]
 
 sorted = data.sort_by do |age|
-  age[1]
+  age[0]
 end
 puts sorted
