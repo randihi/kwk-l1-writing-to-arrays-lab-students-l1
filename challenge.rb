@@ -15,6 +15,29 @@
 # puts age_order
 
 #Output names in order by ascending age
+# data = [
+#   ['Frank', 33],
+#   ['Stacy', 15],
+#   ['Juan', 24],
+#   ['Dom', 32],
+#   ['Steve', 24],
+#   ['Jill', 24]
+# ]
+
+# sorted = data.sort_by do |age|
+#   age[1] #0 = Alphebetical 1 = Numerical
+# end
+
+# sorted.each do |names|
+#   puts names[0]
+# end
+
+# puts sorted
+# puts sorted[0][0]
+# puts sorted[1][0]
+# puts sorted[2][0]
+# puts sorted[3][0]
+
 data = [
   ['Frank', 33],
   ['Stacy', 15],
@@ -29,11 +52,5 @@ sorted = data.sort_by do |age|
 end
 
 sorted.each do |names|
-  puts names[0]
+  puts "#{names[0]} + #{names[1]}"
 end
-
-# puts sorted
-# puts sorted[0][0]
-# puts sorted[1][0]
-# puts sorted[2][0]
-# puts sorted[3][0]
