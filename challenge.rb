@@ -17,7 +17,7 @@ def age_order
 
 
   people = []
-  people << Person.new("A", 5, 9)
+  people << ("A", 5, 9)
   people << Person.new("B", 2, 4)
   people << Person.new("C", 6, 8)
   people << Person.new("D", 3, 3)
