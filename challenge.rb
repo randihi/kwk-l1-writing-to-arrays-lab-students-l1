@@ -11,8 +11,8 @@ def age_order
   # data.sort_by {|name, age| age}
   # puts data
   hash = {coconut: 200, orange: 50, bacon: 100}
- 
-hash.sort_by(&:last)
+  hash.sort_by(&:last)
+  puts hash
 end
 
 puts age_order
