@@ -26,6 +26,10 @@ data = [
 sorted = data.sort_by do |age|
   age[1] #0 = Alphebetical 1 = Numerical
 end
+
+sorted.each do |names|
+  puts names
+end
 puts sorted
 puts sorted[0][0]
 puts sorted[1][0]
