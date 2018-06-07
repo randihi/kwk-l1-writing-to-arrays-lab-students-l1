@@ -40,4 +40,4 @@ end
 
 puts "Type in one word for scrabble scorer"
 word = gets.chomp
-puts "Scrabble score for " + word + " is " + word.score.to_s
+puts "Scrabble score for " + word + " is " + score
