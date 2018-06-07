@@ -10,6 +10,11 @@ def age_order
   sorted = sort_me.sort_by { |k| k["Age"] }
   puts sorted
   
+  
+    my_hash.keys.sort_by { |key| my_hash[key] }.each do
+  |key|
+      puts my_hash[key]
+  end
 end
 
 puts age_order
