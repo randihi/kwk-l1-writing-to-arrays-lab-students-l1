@@ -9,9 +9,7 @@ def age_order
   ]
   
   data.sort_by { |name, age| age }
-  
-  copy = data.
-  puts copy.to_s
+  puts data
 end
 
 puts age_order
