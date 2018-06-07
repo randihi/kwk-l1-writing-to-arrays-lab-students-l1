@@ -30,6 +30,7 @@ end
 sorted.each do |names|
   puts names
 end
+
 puts sorted
 puts sorted[0][0]
 puts sorted[1][0]
