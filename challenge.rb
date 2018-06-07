@@ -14,26 +14,17 @@
 
 # puts age_order
 
-class Scrabble
+def score
+  letters = word.upcase.split('')
 
-  attr_reader :word
-
-  def initialize(word)
-    @word = word
+  total = 0
+  letters.each do |letter|
+    total += letter_scores[letter]
   end
 
-  def score
-    letters = word.upcase.split('')
+  total
+end
 
-    total = 0
-    letters.each do |letter|
-      total += letter_scores[letter]
-    end
-
-    total
-  end
-
-# scores for each letter
   def letter_scores
     {  "A"=>1, "B"=>3, "C"=>3, "D"=>2,
       "E"=>1, "F"=>4, "G"=>2, "H"=>4,
@@ -49,4 +40,4 @@ end
 
 puts "Type in one word for scrabble scorer"
 word = gets.chomp
-puts "Scrabble score for " + word + " is " + Scrabble.new(word).score.to_s
+puts "Scrabble score for " + word + " is " + word.score.to_s
