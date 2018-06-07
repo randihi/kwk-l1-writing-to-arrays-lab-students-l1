@@ -8,7 +8,7 @@ def age_order
     ["Jill", 24]
   ]
   
-  data.sort_by { |name, age| age }
+  data.sort { |name, age| age }
   puts data
 end
 
