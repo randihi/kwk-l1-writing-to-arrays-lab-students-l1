@@ -9,3 +9,5 @@ def age_order
   ]
   puts data[1]
 end
+
+age_order
