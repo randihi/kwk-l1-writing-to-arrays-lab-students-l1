@@ -1,6 +1,6 @@
 def age_order
   sort_me = []
-  sort_me.push({"Age"=>33, "Name"=>"Frank"})
+  sort_me.push({33, "Frank"})
   sort_me.push({"Age"=>15, "Name"=>"Stacy"})
   sort_me.push({"Age"=>24, "Name"=>"Juan"})
   sort_me.push({"Age"=>32, "Name"=>"Dom"})
