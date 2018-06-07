@@ -10,9 +10,16 @@ def age_order
   
   # data.sort_by {|name, age| age}
   # puts data
-  hash = {coconut: 200, orange: 50, bacon: 100}
-  hash.sort_by(&:last)
-  puts hash
+  sort_me = []
+sort_me.push({"value"=>1, "name"=>"a"})
+sort_me.push({"value"=>3, "name"=>"c"})
+sort_me.push({"value"=>2, "name"=>"b"})
+
+# sort
+sort_me.sort_by { |k| k["value"]}
+
+# same order as above!
+puts sort_me
 end
 
 puts age_order
