@@ -24,6 +24,6 @@ data = [
 ]
 
 sorted = data.sort_by do |age|
-  age[0]
+  age[1] #0 = Alphebetical 1 = Numerical
 end
 puts sorted
