@@ -12,10 +12,6 @@ def age_order
   
   my_hash = {'a'=>'1', 'c'=>'3', 'b'=>'2'}
   
-  my_hash.sort { |l, r| l[1]<=>r[1] }
-  
-  puts my_hash
-  
 end
 
 puts age_order
