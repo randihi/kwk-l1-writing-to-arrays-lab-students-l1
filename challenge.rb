@@ -9,7 +9,7 @@ def age_order
   ]
   
   copy = data.sort
-  
+  puts copy.to_s
 end
 
 puts age_order
