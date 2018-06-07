@@ -23,5 +23,7 @@ data = [
   ['Jill', 24]
 ]
 
-sorted = data.sort {|a,b| b[1] <=> a[1]}
+sorted = data.sort_by do |age|
+  age[1]
+end
 puts sorted
