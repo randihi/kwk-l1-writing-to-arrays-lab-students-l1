@@ -22,3 +22,5 @@ data = [
   ['Steve', 24],
   ['Jill', 24]
 ]
+
+sorted = data.sort {
