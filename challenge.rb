@@ -10,7 +10,6 @@ def age_order
   sorted = sort_me.sort_by { |k| k["Age"] }
   puts sorted[0].values
   
-  end
 end
 
 puts age_order
