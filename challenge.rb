@@ -10,6 +10,8 @@ def age_order
   sorted = sort_me.sort_by { |k| k["Age"] }
   puts sorted[0].values
 
+  putary.sort_by {|name, age| [age, name] }
+
 end
 
 puts age_order
