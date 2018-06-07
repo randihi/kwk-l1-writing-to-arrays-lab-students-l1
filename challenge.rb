@@ -10,9 +10,9 @@ def age_order
   
   # data.sort_by {|name, age| age}
   # puts data
-  numbers = [5,3,2,1]
-  numbers.sort
-  puts numbers
+  strings = %w(foo test blog a)
+  strings.sort { |a,b| a.length <=> b.length }
+  puts strings
 end
 
 puts age_order
