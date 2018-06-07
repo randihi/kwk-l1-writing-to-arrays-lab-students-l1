@@ -52,5 +52,5 @@ sorted = data.sort_by do |age|
 end
 
 sorted.each do |names|
-  puts "#{names[0]} + #{names[1]}"
+  puts "#{names[0]}" + "(#{names[1]})"
 end
