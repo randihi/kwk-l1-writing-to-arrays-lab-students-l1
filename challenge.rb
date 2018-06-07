@@ -23,4 +23,5 @@ data = [
   ['Jill', 24]
 ]
 
-sorted = data.sort {
+sorted = data.sort {|a,b| b[1] <=> a[1]}
+puts sorted
