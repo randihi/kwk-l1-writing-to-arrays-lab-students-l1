@@ -8,8 +8,7 @@ def age_order
   sort_me.push({"Age"=>24, "Name"=>"Jill"})
 
   sorted = sort_me.sort_by { |k| k["Age"] }
-  puts sorted[0]
-  
+  puts sorted[0].key
 end
 
 puts age_order
