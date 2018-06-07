@@ -15,7 +15,7 @@
 # puts age_order
 
 def score
-  letters = word.upcase.split('')
+  letters = word.upcase
 
   total = 0
   letters.each do |letter|
