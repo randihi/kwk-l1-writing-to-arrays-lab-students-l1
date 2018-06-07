@@ -28,7 +28,7 @@ sorted = data.sort_by do |age|
 end
 
 sorted.each do |names|
-  puts name[0]
+  puts names[0]
 end
 
 # puts sorted
